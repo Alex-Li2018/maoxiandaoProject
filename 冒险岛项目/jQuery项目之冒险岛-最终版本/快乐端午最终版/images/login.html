@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <div class="login" id="login" style="height: 364px;">
+     <div class="header">
+        <a class="close" id="close" href="javascript:void(0);" title="关闭" tabindex="14">
+
+        </a>
+     </div>
+    <div class="error_tips" id="error_tips" style="display: none;">
+      <span class="error_logo" id="error_logo"></span>
+      <span class="err_m" id="err_m"></span>
+    </div>
+    <div class="loading_tips" id="loading_tips">
+    <span id="loading_wording">登录中</span>
+      <img id="loading_img" place_src="https://ui.ptlogin2.qq.com/style/0/images/load.gif" align="absmiddle" src="https://ui.ptlogin2.qq.com/style/0/images/load.gif">
+    </div>
+    <div class="qlogin" id="qlogin" style="display: block;">
+    <div class="title" id="title_0" style="display: block;">快速安全登录</div>
+    <div class="title" id="title_1" style="display: none;">安全验证</div>
+    <div class="qlogin_tips" id="qlogin_tips_0" style="display: block;">请使用<a class="link_tips" href="http://im.qq.com/mobileqq/#from=login" target="_blank">
+      QQ手机版</a>扫描二维码，<br>安全登录，防止盗号。
+    </div>
+    <div class="qlogin_tips" id="qlogin_tips_1" style="display: none;">
+      请使用
+      <a class="link_tips" href="http://im.qq.com/mobileqq/#from=login" target="_blank">QQ手机版</a>扫描二维码，<br>或点击头像授权登录。</div>
+    <div class="qlogin_tips" id="qlogin_tips_2" style="display: none;">
+      由于你的帐号存在异常，需要进行手机验证，<br>
+      请使用
+      <a class="link_tips" href="http://im.qq.com/mobileqq/#from=login" target="_blank">QQ手机版
+      </a>扫码进行登录。
+    </div>
+      <div class="qlogin_tips" id="qlogin_tips_3" style="display: none;">
+        你已开启了设备锁安全登录服务，<br>
+        请使用
+        <a class="link_tips" href="http://im.qq.com/mobileqq/#from=login" target="_blank">QQ手机版
+        </a>
+        扫码进行登录。
+      </div>
+      <div class="qlogin_tips" id="qlogin_tips_4" style="display: none;">
+        请在
+        <a class="link_tips" href="http://im.qq.com/mobileqq/#from=login" target="_blank">
+          QQ手机版
+        </a>
+        上确认使用此帐号登录
+      </div>
+      <a title="上一页" class="prePage" id="prePage" href="javascript:void(0);" style="display: none;">
+    <span class="preRow" tabindex="6"></span>
+  </a>
+    <div class="qlogin_show" id="qlogin_show" style="width: 300px; left: 50%; margin-left: -150px;">
+      <div class="qlogin_list" id="qlogin_list" style="width: 300px;">
+        <span id="qr_area" class="qr_0">
+          <img id="qrlogin_img" class="qrImg" alt="" src="https://ssl.ptlogin2.qq.com/ptqrshow?appid=21000113&amp;e=2&amp;l=M&amp;s=3&amp;d=72&amp;v=4&amp;t=0.13880290966760955&amp;daid=8&amp;pt_3rd_aid=0" style="position: absolute; left: 12px;">
+          <span class="qrlogin_img_out" onmouseover="pt.plogin.showQrTips();" onmouseout="pt.plogin.hideQrTips();"></span>
+          <span id="qr_invalid" class="qr_invalid" onclick="pt.plogin.begin_qrlogin();" style="display: block;">
+            <span id="qr_mengban" class="qr_mengban"></span>
+            <span id="qr_invalid_tips" class="qr_invalid_tips"> 二维码失效 <br> 请点击刷新 </span></span></span></div></div>
+    <div class="guanjia hide">
+      <img class="guanjia_logo hide" src="//imgcache.qq.com/ptlogin/v4/style/40/images/logo.png">
+    <input type="checkbox" class="guanjia_checkbox hide">
+      <span class="guanjia_tips"></span>
+    </div>
+      <a title="下一页" class="nextPage" id="nextPage" href="javascript:void(0);" style="display: none;"><span class="nextRow" tabindex="7">
+
+    </span>
+      </a>
+    </div>
+    <div class="web_qr_login" id="web_qr_login" style="display: none;">
+      <div class="web_qr_login_show" id="web_qr_login_show">
+        <div class="web_login" id="web_login">
+          <div class="tips" id="tips">
+            <noscript id="noscript_area">
+              <span class="noscript">
+                你的浏览器脚本被禁用了，
+                <a href="/assistant/noscript.html" target="_blank" style="color: #29B1F1">
+                  查看启用方法
+                </a>
+              </span>
+              <img id="noscript_img" style="width:1px;height:1px;" src="https://ui.ptlogin2.qq.com/cgi-bin/report?id=301240">
+            </noscript>
+            <div class="title" id="title_2">
+              帐号密码登录
+            </div><div id="qlogin_entry">
+            推荐使用
+            <a class="switch_btn_focus link_tips" hidefocus="true" id="switcher_qlogin" href="javascript:void(0);" tabindex="7">
+              快速安全登录
+            </a>
+            ，防止盗号。
+          </div>
+            <div class="operate_tips" id="operate_tips">
+              <span class="operate_content">
+                手机号码也可登录哦，
+                <a class="tips_link" id="bind_account" href="javascript:void(0);">
+                  登录个人中心绑定
+                </a>
+              </span>
+              <span class="down_row"></span></div></div><div></div>
+          <div class="login_form">
+            <form id="loginform" autocomplete="off" name="loginform" action="" method="post" target="0" style="margin:0px;">
+              <div class="uinArea" id="uinArea">
+                <label class="input_tips" id="uin_tips" for="u" data-onlyqq="QQ号码" style="display: block;">
+                  支持QQ号/邮箱/手机号登录</label>
+                <div class="inputOuter">
+                  <input type="text" class="inputstyle" id="u" name="u" value="" tabindex="1">
+                  <a class="uin_del" id="uin_del" href="javascript:void(0);"></a>
+                </div>
+                <ul class="email_list" id="email_list"></ul>
+              </div>
+              <div class="pwdArea" id="pwdArea">
+                <label class="input_tips" id="pwd_tips" for="p">密码</label>
+                <div class="inputOuter">
+                  <input type="password" class="inputstyle password" id="p" name="p" value="" maxlength="16" tabindex="2">
+                </div>
+                <div class="lock_tips" id="caps_lock_tips">
+                  <span class="lock_tips_row"></span>
+                  <span>大写锁定已打开</span>
+                </div></div>
+              <div class="verifyArea" id="verifyArea">
+                <div class="verifyinputArea" id="verifyinputArea">
+                  <label class="input_tips" id="vc_tips" for="verifycode">验证码</label>
+                  <div class="inputOuter">
+                    <input name="verifycode" type="text" class="inputstyle verifycode" id="verifycode" value="" tabindex="3">
+                  </div>
+                </div>
+                <div class="verifyimgArea" id="verifyimgArea">
+                  <img class="verifyimg" id="verifyimg" title="看不清，换一张">
+                  <a tabindex="4" href="javascript:void(0);" class="verifyimg_tips">
+                    看不清，换一张
+                  </a>
+                </div></div>
+              <div class="submit">
+                <a class="login_button" href="javascript:void(0);" hidefocus="true">
+                  <input type="submit" tabindex="6" value="登 录" class="btn" id="login_button">
+                </a>
+              </div>
+            </form>
+          </div>
+          <div class="guanjia hide">
+            <img class="guanjia_logo hide" src="//imgcache.qq.com/ptlogin/v4/style/40/images/logo.png">
+            <input type="checkbox" class="guanjia_checkbox hide">
+            <span class="guanjia_tips"></span>
+          </div></div>
+        <div class="bottom" id="bottom_web">
+          <a href="https://ssl.ptlogin2.qq.com/ptui_forgetpwd" class="link" id="forgetpwd" target="_blank">忘了密码？
+          </a>
+          <span class="dotted">|</span>
+          <a href="https://ssl.ptlogin2.qq.com/j_newreg_url" class="link" target="_blank">
+            注册新帐号
+          </a>
+          <span class="dotted">|</span>
+          <a class="link" id="feedback_web" href="https://support.qq.com/products/14800" target="_blank">
+            意见反馈
+          </a>
+        </div>
+      </div></div>
+    <div id="qrlogin_step2" class="qrlogin_step2">
+      <div class="step2_outer">
+        <div class="qr_h3">扫描成功，请在手机上确认是否授权登录</div>
+        <div class="goBack">
+          使用其它方式登录，请
+          <a id="goBack" href="javascript:void(0);" tabindex="14">返回</a>
+        </div></div></div>
+    <div id="onekey_step2" class="onekey_step2">
+      <div class="outer">
+        <div class="title">
+           QQ手机版授权
+        </div>
+        <div class="container">
+          <div class="prompt">
+            请打开
+            <a class="link_tips" href="http://im.qq.com/mobileqq/#from=login" target="_blank">
+              QQ手机版
+            </a>
+            ，确认登录
+          </div>
+          <div class="operate">
+            没有收到登录确认？请
+            <a href="javascript:pt.qlogin.onekeyPush(pt.qlogin.__onekeyUin)">
+              重新发送。
+            </a>
+          </div>
+          <div class="operate"> 使用扫码登录/密码登录，请&nbsp;
+            <a stexttyle="-decoration: underline;" href="javascript:pt.plogin.go_onekey_step(1)">
+              返回
+            </a>
+          </div>
+          <div id="onekey_tips">
+
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <a class="link" href="https://support.qq.com/products/14800" target="_blank">
+          意见反馈
+        </a>
+      </div>
+    </div>
+    <div id="qr_tips" class="qr_tips" style="display: none;">
+      <div class="" id="qr_tips_menban"></div>
+      <div class="qr_tips_pic qr_tips_pic_chs" id="qr_tips_pic" style="opacity: 0;"></div>
+    </div>
+    <div class="bottom hide" id="bottom_qlogin" style="display: block;">
+      <a class="link" hidefocus="true" id="switcher_plogin" href="javascript:void(0);" tabindex="8">
+        帐号密码登录
+      </a>
+      <span class="dotted">|</span>
+      <a href="https://ssl.ptlogin2.qq.com/j_newreg_url" class="link" target="_blank">
+      注册新帐号
+      </a>
+      <span class="dotted">|</span>
+      <a class="link" id="feedback_qlogin" href="https://support.qq.com/products/14800" target="_blank">
+        意见反馈
+      </a>
+    </div>
+    <div id="authLogin" class="authLogin">
+      <div class="authHeader" id="authHeader">
+        <div class="logo"></div>
+        <span class="title">腾讯业务</span>
+      </div>
+      <div class="authTips"></div>
+      <div class="authWording">
+        <span>
+          <span>点击头像，确认帐号登录</span>
+          <span>腾讯业务</span>
+        </span>
+      </div>
+      <div class="authInfo">
+        <a class="face" id="auth_area" tabindex="1" href="javascript:void(0);" draggable="false" hidefocus="true">
+          <img id="auth_face">
+          <span id="auth_mengban" class=""></span>
+          <span class="uin" id="auth_uin"></span>
+          <span class="img_out_focus"></span>
+          <span class="nick" id="auth_nick"></span>
+        </a>
+      </div>
+      <div class="cancleAuthOuter" id="cancleAuthOuter">
+        <a id="cancleAuth" class="cancleAuth">使用其他帐号</a>
+      </div>
+      <div class="bottom"></div>
+    </div>
+    <div id="newVcodeArea" class="newVcodeArea">
+      <div style="margin: 0px; padding: 0px; line-height: 40px;">
+        <div style="border-bottom: 1px solid #d7d7d7;">
+          <div style="position: absolute; margin-left: 10px">
+            <a href="javascript:pt.plogin.hideVC();" style="color: #007aff; text-decoration: none;">
+              返回
+            </a>
+          </div>
+          <div style="width: 100%; text-align: center; font-size: 16px; font-weight: bold">
+            安全验证
+          </div>
+        </div>
+      </div>
+      <div id="newVcodeIframe" style="background: none rgb(255, 255, 255); position: absolute; width: 300px; left: 50%; margin-left: -150px; z-index: 9999;"></div>
+     </div>
+  </div>
+</body>
+</html>

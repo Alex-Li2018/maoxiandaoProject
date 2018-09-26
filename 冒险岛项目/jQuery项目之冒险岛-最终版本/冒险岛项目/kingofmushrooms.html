@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第六组:蘑菇你为何那么秀</title>
+    <link rel="stylesheet" href="css/cssofzjh.css">
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/jsofzjh.js"></script>
+</head>
+<body>
+<!--顶部开始-->
+<div id="top">
+    <div class="logo">
+        <h1>
+            <a href="#">
+                腾讯游戏
+            </a>
+        </h1>
+    </div>
+    <div class="top-ad">
+        <img src="./images/top-ad.jpg" alt="">
+    </div>
+    <div class="top-nav">
+        <div>
+            <h3 class="top-nav1">
+                <a href="#">成长守护平台</a>
+            </h3>
+            <h3 class="top-nav2">腾讯游戏排行榜<i> </i></h3>
+        </div>
+    </div>
+    <!-- nba广告-->
+    <div class="nba-ad">
+        <a href="#">
+            <img src="./images/top-ad2.jpg" alt="" />
+        </a>
+    </div>
+    <!-- 游戏列表-->
+    <div class="game-list">
+        <!-- new game -->
+        <div class="new-game">
+            <!-- 列头部-->
+            <div class="col-head">
+                <h2 class="rank-title">新游排行榜</h2>
+                <a href="#" class="rank-more">更多<i class="icon-font">&#187</i></a>
+            </div>
+            <!-- 列身体-->
+            <div class="col-body">
+                <ul class="rank-list">
+                    <!-- li列表头部-->
+                    <li class="rank-head"><span class="rank-order-hd">排名</span><span class="rank-name-hd">游戏</span></li>
+                    <!-- li列表排名部分-->
+                    <li class="rank-item current">
+                        <span class="rank-order-color">1</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">NBA2KOL2</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/NBA2KOL2.jpg" alt="NBA2KOL2"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">2</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">FIFA Online 4</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/FIFAOL4-KV194_82.jpg" alt="FIFA Online 4"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">3</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">灵山奇缘</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/lsqy.jpg" alt="灵山奇缘"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">4</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">流放之路</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/lfzl-2.jpg" alt="流放之路"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">5</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">冒险岛2</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/mxd2-2.jpg" alt="冒险岛2"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">6</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">使命召唤OL</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/cod-2.jpg" alt="使命召唤OL"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">7</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">极品飞车ONLINE</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/jpfcol-2.jpg" alt="极品飞车ONLINE"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">8</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">穿越火线</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/cf-2.jpg" alt="穿越火线"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">9</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">QQ炫舞</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/x5-2.jpg" alt="QQ炫舞"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">10</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">御龙在天</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                            <img class="game-img" src="./images/yl-2.jpg" alt="御龙在天"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 热门游戏-->
+        <div class="new-game">
+            <!-- 列头部-->
+            <div class="col-head">
+                <h2 class="rank-title">热门排行榜</h2>
+                <a href="#" class="rank-more">更多<i class="icon-font">&#187</i></a>
+            </div>
+            <!-- 列身体-->
+            <div class="col-body">
+                <ul class="rank-list">
+                    <!-- li列表头部-->
+                    <li class="rank-head"><span class="rank-order-hd">排名</span><span class="rank-name-hd">游戏</span></li>
+                    <!-- li列表排名部分-->
+                    <li class="rank-item current">
+                        <span class="rank-order-color">1</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">英雄联盟</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/lol-2.jpg" alt="英雄联盟"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">2</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">穿越火线</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/cfsy-2.jpg" alt="穿越火线"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">3</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">地下城与勇士</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/dnf-2.jpg" alt="地下城与勇士"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">4</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">逆战</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/nz-2.jpg" alt="逆战"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">5</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">使命召唤OL</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/cod-2.jpg" alt="使命召唤OL"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">6</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">QQ炫舞</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/x5-2.jpg" alt="QQ炫舞"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">7</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">QQ飞车</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/speed-2.jpg" alt="QQ飞车"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">8</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">炫舞时代</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/5s-2.jpg" alt="炫舞时代"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">9</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">天涯明月刀</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/wuxia-2.jpg" alt="天涯明月刀"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">10</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">FIFA Online 3</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/fifa-2.jpg" alt="FIFA Online 3"/>
+                                <p class="game-meta"><a href="#" class="game-link"><i class="icon-home"></i>进入官网</a><a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 新品手游排行榜-->
+        <div class="new-game">
+            <!-- 列头部-->
+            <div class="col-head">
+                <h2 class="rank-title">新品手游排行榜</h2>
+                <a href="#" class="rank-more">更多<i class="icon-font">&#187</i></a>
+            </div>
+            <!-- 列身体-->
+            <div class="col-body col-body1">
+                <ul class="rank-list">
+                    <!-- li列表头部-->
+                    <li class="rank-head"><span class="rank-order-hd">排名</span><span class="rank-name-hd">游戏</span></li>
+                    <!-- li列表排名部分-->
+                    <li class="rank-item">
+                        <span class="rank-order-color">1</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">我叫MT4</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/wjmt4.jpg" alt="我叫MT4"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">2</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">FIFA足球世界</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/FIFAMobile-KV194_82.jpg" alt="FIFA足球世界"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">3</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">拳皇命运手游</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/KV19482.jpg" alt="拳皇命运手游"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">4</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">火影忍者手游</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/hyrz-2.jpg" alt="火影忍者手游"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">5</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">梦幻诛仙</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/mhzx-2.jpg" alt="梦幻诛仙"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>ss="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 列头部-->
+            <div class="col-head">
+                <h2 class="rank-title">热门手游排行榜</h2>
+                <a href="#" class="rank-more">更多<i class="icon-font">&#187</i></a>
+            </div>
+            <!-- 列身体-->
+            <div class="col-body col-body2">
+                <ul class="rank-list">
+                    <!-- li列表头部-->
+                    <!--<li class="rank-head"><span class="rank-order-hd">排名</span><span class="rank-name-hd">游戏</span></li>-->
+                    <!-- li列表排名部分-->
+                    <li class="rank-item current">
+                        <span class="rank-order-color">1</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">王者荣耀</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/sgame-22.jpg" alt="王者荣耀"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">2</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">穿越火线之枪战王者</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/cfsy-2.jpg" alt="NBA2KOL2"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">3</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">奇迹暖暖</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/qjnn-2.jpg" alt="奇迹暖暖"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">4</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">天天爱消除</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/peng-2.jpg" alt="天天爱消除"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-gray">5</span>
+                        <div class="rank-name">
+                            <a href="#" class="game-text">火影忍者手游</a>
+                            <!-- 悬浮在上面显示的图片一栏-->
+                            <div class="rank-game-cover">
+                                <img class="game-img" src="./images/hyrz-2.jpg" alt="火影忍者手游"/>
+                                <p class="game-meta2"><a href="#" class="game-link"><i class="icon-home2"></i></a><a href="#" class="game-link"><i class="icon-ios"></i></a><a href="#" class="game-link"><i class="icon-android"></i></a></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--顶部结束-->
+<!--登录页 开始-->
+<div id="cover-bg">
+
+</div>
+<div id="login-web">
+    <div class="login-title">快速安全登录</div>
+    <div class="login-tips">请使用<a href="#">QQ手机版</a>扫描二维码,<br>安全登录,防止盗号</div>
+    <div class="login-qr">
+        <div class="qr-box">
+            <img src="./images/loginqr" alt=""/>
+        </div>
+        <div class="scan">
+
+        </div>
+    </div>
+    <div class="login-link">
+        <a href="#">账号密码登陆</a><span class="dotted">|</span><a href="#">注册新账号</a><span class="dotted">|</span><a href="#">意见反馈</a>
+    </div>
+    <div class="login-header">
+        <a href="javascript:;" class="close"></a>
+    </div>
+</div>
+<!--登录页结束-->
+<!--导航开始-->
+<div id="header">
+    <div class="header-menu">
+        <a href="../index.html" class="logo">首页</a>
+        <a href="../index.html">官网首页</a>
+        <a href="#">新闻资讯</a>
+        <a href="#">在线客服</a>
+        <a href="#">客户端下载</a>
+        <a href="#">官方论坛</a>
+    </div>
+    <div class="login">
+        <a href="javascript:;">
+            登录<span></span>
+        </a>
+    </div>
+    <div class="header-right">
+        <img src="./images/s-qc-img.jpg" alt="">
+        <p class="more-text">关注更多资讯APP</p>
+        <div class="b-qr-box">
+            <div class="b-qr">
+                <img src="./images/qc-wx.jpg" alt="冒险岛2微信公众号"/>
+                <p class="qr-text">冒险岛2微信公众号</p>
+            </div>
+            <div class="b-qr">
+                <img src="./images/qc-shequ.png" alt="冒险岛2社区"/>
+                <p class="qr-text">冒险岛2社区</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--导航结束-->
+<!--主体部分开始-->
+<div id="main">
+    <div class="bg"></div>
+    <div class="container">
+        <!--口号-->
+        <p class="slogan sloganscale1"></p>
+        <!--签名-->
+        <p class="sign"></p>
+        <!--闪烁的星星-->
+        <p class="star2 star3"></p>
+        <p class="star1 star4"></p>
+        <p class="star1 star5"></p>
+        <p class="star2 star6"></p>
+        <p class="star1 star7"></p>
+        <!--大蘑菇-->
+        <p class="index_pic1"></p>
+        <!--小蘑菇导航-->
+        <div class="link_nav">
+            <a href="javascript:;" class="a1 nav1" title="菇岛求生"></a>
+            <a href="javascript:;" class="a2 nav3" title="世界BOSS登场"></a>
+            <a href="javascript:;" class="a3 nav5" title="蘑菇村入村有礼">
+                <i></i>
+            </a>
+            <a href="javascript:;" class="a4 nav7" title="彩虹水灵养成">
+                <i></i>
+            </a>
+            <a href="javascript:;" class="a5 nav2" title="守护蘑菇村">
+                <i></i>
+            </a>
+            <a href="javascript:;" class="a6 nav4" title="击退蘑菇王">
+                <i></i>
+            </a>
+            <a href="javascript:;" class="a7 nav6" title="新商品"></a>
+            <a href="javascript:;" class="a8 nav8" title="新优化"></a>
+        </div>
+    </div>
+</div>
+<!--主体部分结束-->
+
+<div id="footer">
+    <div class="inner">
+        <p>
+            <a href="#">腾讯互动娱乐</a>
+             |
+            <a href="#">服务条款</a>
+             |
+            <a href="#">隐私政策</a>
+             |
+            <a href="#">腾讯游戏招聘</a>
+             |
+            <a href="#">腾讯游戏客服</a>
+             |
+            <a href="#">游戏地图</a>
+             |
+            <a href="#">成长守护平台</a>
+             |
+            <a href="#">商务合作</a>
+             |
+            <a href="#">网站导航</a>
+        </p>
+        <p>COPYRIGHT © 1998 – 2018 TENCENT. ALL RIGHTS RESERVED.</p>
+        <p>
+            <a href="#">腾讯公司 版权所有</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

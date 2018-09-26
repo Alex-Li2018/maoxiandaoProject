@@ -1,0 +1,507 @@
+/*初始化代码*/
+
+body,
+div,
+span,
+p,
+input,
+img,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+i,
+em,
+strong {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    color: #fff;
+}
+
+input {
+    border: 0 none;
+    outline: 0 none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+i, em {
+    font-style: normal;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+    background-color: #f6f6f6;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+div.hide {
+    height: 40px;
+    background-color: #fff;
+    position: relative;
+}
+
+.hide .guide a {
+    position: absolute;
+    background: url("mxd2.qq.com/static/images/ost-bg.png") 0px -43px;
+    width: 200px;
+    height: 30px;
+    top: 4px;
+    left: 180px;
+    z-index: 5;
+}
+
+.hide i {
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    background-color: #ccc;
+}
+.hide .tip a {
+    position: absolute;
+    top: 0px;
+    left: 405px;
+}
+.hide p {
+    position: absolute;
+    top: 0;
+    left: 180px;
+    background: url("mxd2.qq.com/static/images/85877906115622730131533812188970185.1533812189.9a00eb6f377019332e6bb13c5d47c324.970x185_44181.jpg");
+    width: 1000px;
+    height: 200px;
+    background-size: 1000px 200px;
+    z-index: 2;
+    display: none;
+}
+
+.hide .god a img {
+    position: absolute;
+    top: 10px;
+    right: 400px;
+}
+
+.hide .god a em {
+    color: #000;
+    position: absolute;
+    top: 13px;
+    right: 324px;
+}
+
+.hide .god a em:hover {
+    color: #f00;
+}
+
+.hide .key a {
+    position: absolute;
+    top: 13px;
+    right: 200px;
+    color: #000;
+}
+
+.hide .key a:hover {
+    color: #f00;
+}
+.hide .key a i {
+    background: url("mxd2.qq.com/static/images/ost-bg.png") -150px -134px;
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 88px;
+}
+.hide .key a:hover i {
+    background-position-x: -169px;
+}
+div.top {
+    height: 48px;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+
+.top .logo a {
+    float: left;
+    background: url('mxd2.qq.com/static/images/gheader-top-logo.png');
+    width: 60px;
+    height: 38px;
+    margin-left: 62px;
+    margin-top: 5px;
+}
+
+.top .guangwang ul li {
+    float: left;
+    margin-right: 9px;
+    line-height: 48px;
+}
+
+.top .guangwang ul li.lin {
+    width: 1px;
+    height: 30px;
+    background-color: #000;
+    margin-left: 22px;
+    margin-top: 9px;
+}
+
+.top .guangwang ul li.line {
+    width: 1px;
+    height: 30px;
+    background-color: #000;
+    margin-top: 9px;
+}
+
+.top .right {
+    height: 48px;
+    width: 350px;
+    float: right;
+    position: relative;
+}
+
+.top #box {
+    position: absolute;
+    top: 0;
+    left: -175px;
+    width: 330px;
+    height: 135px;
+    background-color: #000;
+    opacity: 0.6;
+    display: none;
+}
+
+.top #big1 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: -165px;
+    width: 110px;
+    height: 100px;
+    background: url('mxd2.qq.com/static/picture/qc-wx.jpg'), no-repeat;
+    background-size: 110px 100px;
+}
+
+.top #big1 p {
+    position: absolute;
+    top: 106px;
+    left: 3px;
+    color: #fff;
+    z-index: 2;
+}
+
+.top #big2 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: -36px;
+    width: 100px;
+    height: 100px;
+    background: url('mxd2.qq.com/static/picture/qc-shequ.png'), no-repeat;
+    background-size: 100px 100px;
+}
+
+.top #big2 p {
+    position: absolute;
+    top: 106px;
+    left: 18px;
+    color: #fff;
+    z-index: 2;
+}
+
+.top .right .erweima a {
+    float: left;
+    width: 64px;
+    height: 64px;
+    background-color: #000;
+    opacity: 0.5;
+    margin-right: 270px;
+}
+
+.top .right .erweima a img {
+    margin: 6px 6px 8px 6px;
+}
+
+.top .right .zixun {
+    position: absolute;
+    left: 74px;
+    top: 12px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.top .right .zixun p {
+    padding-top: 5px;
+}
+
+.top .right .submit {
+   background: url("mxd2.qq.com/static/images/top-header-bg.png") 0px -144px;
+    width: 90px;
+    height: 32px;
+    position: absolute;
+    top: 8px;
+    right: 65px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.top .right .submit a i {
+    color: #fff;
+    position: absolute;
+    left: 26px;
+}
+.top .right .submit a em {
+    display: block;
+    background:url("mxd2.qq.com/static/images/top-header-bg.png") 0 -58px;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 9px;
+    left: 58px;
+}
+.bg {
+    width: 100%;
+    height: 950px;
+    background: url("mxd2.qq.com/static/images/index_kv.jpg") center center;
+}
+
+.nav {
+    height: 950px;
+    overflow: hidden;
+    background: url('mxd2.qq.com/static/images/index_kv_in.jpg');
+}
+.nav .banner {
+    margin-top: 65px;
+    width: 638px;
+    height: 250px;
+    background: url("mxd2.qq.com/static/picture/index_solgan.png") no-repeat;
+    background-size: 638px, 250px;
+    margin-left: 280px;
+}
+.nav #ul1 li {
+    float: left;
+    margin-right: 100px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.nav #ul1 #p1 {
+    margin-left: 200px;
+}
+
+.nav #ul1 li a p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 160px;
+    left: 45px;
+}
+
+.nav #ul1 #p2 a p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 160px;
+    left: 35px;
+}
+
+.nav #ul1 li a i {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 190px;
+    left: 65px;
+}
+
+.nav #ul1 #p3 a i {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 190px;
+    left: 60px;
+}
+
+.nav #ul2 li {
+    float: left;
+    margin-right: 42px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.nav #ul2 #a1 {
+    margin-top: 80px;
+}
+
+.nav #ul2 #a3 {
+    margin-top: 80px;
+}
+
+.nav #ul2 #a5 {
+    margin-top: 80px;
+}
+
+.nav #ul2 #a1 a p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 95px;
+    left: 28px;
+}
+
+.nav #ul2 #a2 a p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 95px;
+    left: 35px;
+}
+
+.nav #ul2 #a3 a p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 105px;
+    left: 35px;
+}
+
+.nav #ul2 #a4 a p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 95px;
+    left: 35px;
+}
+
+.nav #ul2 #a5 a p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 120px;
+    left: 34px;
+}
+
+.nav #ul2 #a6 a p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 85px;
+    left: 25px;
+}
+
+.nav #ul2 li a i {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 120px;
+    left: 45px;
+}
+
+.nav #ul2 #a3 a i {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 130px;
+    left: 55px;
+}
+
+.nav #ul2 #a6 a i {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fefaf7;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+}
+
+.footer {
+    width: 100%;
+    height: 117px;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer ul {
+    margin-left: 350px;
+}
+
+.footer ul li {
+    margin-top: 20px;
+    float: left;
+    margin-right: 6px;
+}
+
+.footer ul li a {
+    color: #566067;
+}
+
+.footer ul li.line {
+    width: 1px;
+    height: 14px;
+    background-color: #000;
+}
+
+.footer .copy {
+    margin-top: 45px;
+    text-align: center;
+    color: #566067;
+}
+
+.footer .ten {
+    position: absolute;
+    top: 70px;
+    left: 630px;
+
+}
+
+.footer .ten a {
+    color: #566067;
+}
